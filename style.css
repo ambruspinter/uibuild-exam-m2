@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background-color: #f7e4d4;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-content: space-around;
+}
+
+h1 {
+  font-size: 48px;
+  padding: 5px;
+  color: rgb(32, 120, 111);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.input1 input {
+  padding: 20px;
+  width: 400px;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.check input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.check label {
+  color: rgb(60, 159, 126);
+}
+
+button {
+  padding: 20px;
+  padding-right: 90px;
+  padding-left: 90px;
+  background-color: #467745;
+  color: #f7e4d4;
+  border-radius: 30px;
+  border: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#megjegyzes input {
+  height: 60px;
+}
+
+button:hover {
+  background-color: rgb(9, 166, 223);
+}
+
+@media only screen and (max-width: 520px) {
+  h1 {
+    font-size: 36px;
+    text-align: left;
+  }
+  .input1 input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .input1 input {
+    width: 150px;
+  }
+}
